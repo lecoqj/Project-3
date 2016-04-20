@@ -1,0 +1,167 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Merriweather', sans-serif;
+  color: #2f4f4f;
+}
+
+header {
+  background-color: #2f4f4f;
+  color: #fff;
+  font-size: 12px;
+  text-align:center;
+  text-transform: uppercase;
+  padding: 8px;
+}
+
+.form-title {
+  text-align: center;
+  padding-bottom: 48px; 
+  border-bottom: 5px solid #000; 
+}
+
+.form-title h2 {
+  margin-top: 48px;
+}
+
+h3 {
+  font-weight: 300;
+  color: #c0c0c0;
+  margin: 0 16px;
+
+}
+
+.main-content {
+  max-width: 768px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+form {
+  margin-top: 5px; 
+  border-top: 2px;
+}
+
+
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline:0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  text-align: right;
+  font-style: italic;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  text-align: right;
+  opacity:  1;
+  font-style: italic;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  text-align: right;
+  opacity:  1;
+  font-style: italic;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  text-align: right;
+  font-style:italic;
+}
+#zip {
+  max-width: 30%;
+  
+  
+}
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+fieldset {
+  border: none;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+legend {
+  font-size: 24px;
+  font-weight: 400;
+  font-style: oblique;
+  margin-bottom: 16px;
+}
+
+.main-form {
+  margin-top: 5px;
+  border-top: 2px solid #000; 
+  border-bottom: 2px solid #000; 
+  margin-bottom: 10px;
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.newsletter,
+label.format {
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+#topics {
+	min-height: 120px;
+}
+
+button {
+  padding: 19px 39px;
+  color: #fff;
+  background-color: #20b2aa;
+  font-size: 24px;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align:center;
+  margin-bottom: 180px;
+ }
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 2px solid #00008b;
+ /* border-radius: 10px;*/
+}
+
+
+

@@ -1,0 +1,31 @@
+@media (min-width: 760px) {
+
+
+.main-form label {
+  margin: 15px 0 30px;
+  padding-bottom: 15px;
+  width: 25%;
+  float: left;
+  text-align: left;
+}
+
+.main-form input[type="text"],
+.main-form input[type="email"],
+.main-form input[type="tel"],
+.main-form select {
+  width: 75%;
+  float: right;
+}
+
+.main-form {
+  display: block;
+  clear: both;
+ }
+ 
+ #zip {
+	 margin-right: 45%;
+ }
+
+
+}
+
